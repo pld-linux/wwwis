@@ -1,5 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Adds height= and width= to images referenced in specified HTML file
+Summary(pl.UTF-8):	Dodawanie height= i width= do odniesień do obrazków w pliku HTML
 Name:		wwwis
 Version:	2.44
 Release:	1
@@ -18,6 +19,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 WWWis is a Perl application which will read in an HTML file and insert
 height=### width=### directives into the inlined images used in the
 file. It also does a whole lot more to boot.
+
+%description -l pl.UTF-8
+WWWis to perlowa aplikacja odczytująca plik HTML i wstawiająca
+dyrektywy height=### width=### do obrazków osadzonych w danym
+dokumencie. Robi także wiele więcej w celu uruchomienia.
 
 %prep
 %setup -qcT
