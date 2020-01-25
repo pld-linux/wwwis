@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Adds height= and width= to images referenced in specified HTML file
 Summary(pl.UTF-8):	Dodawanie height= i width= do odniesień do obrazków w pliku HTML
 Name:		wwwis
